@@ -14,8 +14,7 @@ namespace WebApp.Controllers
         private readonly WebAppContext _context;
 
         public EmployeesController(WebAppContext context)
-        {
-            _context = context;
+        {            _context = context;
         }
 
         // GET: Employees
